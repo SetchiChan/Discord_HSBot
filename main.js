@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const fs = require("fs");
 const bot = new Discord.Client({disableEveryone: true});
+const Token = "x";
 
 var request
 bot.commands = new Discord.Collection();
@@ -59,4 +60,4 @@ bot.on("ready", async () => {
     bot.user.setActivity("'help for commands.", {type: "PLAYING"});
 });
 
-bot.login("Mzk4NzEwMDgzNDcyODUwOTQ1.DV6SWQ.DxiUgzwPHVoosTlTyvmPjbM0_zs");
+bot.login(process.env.BOT_TOKEN);
