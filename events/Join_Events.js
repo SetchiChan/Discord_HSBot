@@ -35,7 +35,7 @@ member.addRole(member.guild.roles.find("name", "RIPPA TACO"));
 //Set display name of user
 member.setNickname("🆕" + member.displayName);
 //Notify Staff of User join
-bot.channels.get('407731417884262410').sendMessage(member + " has joined the Heaven Shadow. Please contact them for orientation!");
+bot.channels.get('399039851288068096').sendMessage(member + " has joined the Heaven Shadow. Please contact them for orientation!");
 //Notify #New-Members Channel
-bot.channels.get('407731435462590464').sendMessage(member + " has joined the Heaven Shadow. Please check your direct messages for more information!"); 
+bot.channels.get('399041704604467212').sendMessage(member + " has joined the Heaven Shadow. Please check your direct messages for more information!"); 
 };
