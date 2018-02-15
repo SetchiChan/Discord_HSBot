@@ -31,7 +31,7 @@ module.exports = (bot, member) => {
     }
 })
 //set rank of new user
-member.addRole(member.guild.roles.find("name", "RIPPA TACO"));
+member.addRole(member.guild.roles.find("name", "Guardian [Member]🔰 "));
 //Set display name of user
 member.setNickname("🆕" + member.displayName);
 //Notify Staff of User join
