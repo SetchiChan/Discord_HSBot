@@ -1,0 +1,22 @@
+{
+  "name": "heavensshadowbot",
+  "version": "1.0.0",
+  "description": "Heaven's Shadow Bot for Discord",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "SetchiChan",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.0",
+    "discord.js-commando": "^0.9.0",
+    "fs": "0.0.1-security",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
